@@ -1,10 +1,7 @@
 import unittest
 
-from r_hashtables import (HashTable,
-                          hash_table_insert,
-                          hash_table_remove,
-                          hash_table_retrieve,
-                          hash_table_resize)
+from r_hashtables import (HashTable, hash_table_insert,
+                          hash_table_remove, hash_table_retrieve, hash_table_resize)
 
 
 class TestFullHashTable(unittest.TestCase):
